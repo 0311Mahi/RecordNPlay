@@ -12,7 +12,11 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+<<<<<<< HEAD
   testDir: './e2e',
+=======
+  testDir: './tests',
+>>>>>>> cd1c3e64ff2f963b45830222c426873153076542
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -76,4 +80,9 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+<<<<<<< HEAD
 });
+=======
+}
+);
+>>>>>>> cd1c3e64ff2f963b45830222c426873153076542

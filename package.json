@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "playwright",
   "version": "1.0.0",
   "description": "",
@@ -6,12 +7,23 @@
   "directories": {
     "test": "tests"
   },
+=======
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+>>>>>>> cd1c3e64ff2f963b45830222c426873153076542
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.1"
+=======
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+>>>>>>> cd1c3e64ff2f963b45830222c426873153076542
   }
 }
